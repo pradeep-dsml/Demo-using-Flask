@@ -4,7 +4,7 @@ app=Flask("__name__")
 
 @app.route("/")
 def index():
-    return "flask app is working(github version)ie through github repo"
+    return "<h1>flask app is working(github version)ie through github repo</h1>"
 
 if __name__ == "__main__":
     app.run()
